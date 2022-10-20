@@ -1,6 +1,7 @@
 export async function load(event) {
-    console.log(event.platform)
+    const geo = event.platform.context.geo
+    console.log(geo.city)
     return {
-        edge: 'Living on the edge'
+        city: geo.city
     }
 }

@@ -2,4 +2,4 @@
     export let data;
 </script>
 
-{data.edge}
+<h1>Hello from {data.city}</h1>
